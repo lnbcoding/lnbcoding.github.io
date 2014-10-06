@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Adding link for google fonts, which needs to be placed as the 1st element in the head tag -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:600' rel='stylesheet' type='text/css'>
+    <title>LNB Coding</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/website-stylesheet.css">
+</head>
+
+    <header>
+        <div class="title_bar">
+            <font class="blog_name">LNB Coding</font>
+            <font class="header_text">All Dream Are Crazy Until They Come True</font>
+            <a href="http://www.twitter.com/lnbcoding"><img src="../imgs-blog/twitter_icon.png"></a>
+            <a href="http://www.github.com/lnbcoding"><img src="../imgs-blog/github.png"></a>
+            <a href="mailto:leonardbui@gmail.com"><img src="../imgs-blog/gmail_icon.jpg"></a>
+        <div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog-index.html">Blog</a></li>
+            <li><a href="../resume.html">Resume</a></li>
+            <li><a href="../aboutme.html">About Me</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+<body>
+    <div class="sub_blog">
+        <p>Storing items: junk vs labeled | Oct 5, 2014</p>
+    </div>
+    <div class="main_blog">
+        <p>For thinking about the differences between arrays and hashes in Ruby, let's think about people's garages. Specifically how people store things in their garage. Because that's what arrays and hashes are in Ruby and in other Programming languages. It is how you store the crap.</p>
+        <p>Everybody has a junk box where there is no labeling to what should be in the box. Anything can be thrown into that box, there is no type, whether it is coins, photos, cd, food, or whatever. I like to think of arrays as that. It is a mix bag storage type where you can throw numbers, words or even other arrays (storage boxes) in there! To me, arrays are like junk boxes. There will be a name outside the junk box but anything can be thrown and stored in that box.</p>
+        <p>Hashes provide for more ordering and labeling. You see anything stored in a Hash box has an accompanying key and a value. Let's think of this as a box storing cds or dvds (yes I know that most people don't own these anymore). When you place an cd or dvd, on the outside is the name and what type of entertainment it is. You can tell if it is a Disney movie or a Linkin Park CD because it is clearly labeled. To make for easier access, when you store something in a Hash, it must have a label of key and value. When we throw some clothes in the Hash gargage box, we will need to label it as <code>'shirtcolor' => 'blue'</code>. That is how you label in a Hash, using <code>'key' => 'value'</code>. Storing a DVD would be <code>'fav_movie' => 'Ratatouille'</code> and so on.</p>
+        <p>The great thing about both of these storages is that are indexed as you store the items in the box. Index is just the position and order of where the item is stored. A weird thing we must keep in mind with these storages is that it starts with a zero index. Which is just a fancy way of saying the first item stored is the zero index. So if you want to retrieve the first item you placed in the junk box, you can just look for <code>junkbox[0]</code>. If you want to get the sixth items you placed, you will look for <code>junkbox[5]</code>That is the term for arrays in Ruby, the storagename[indexposition] of the item you are looking for. Because Hashes have a specific key and value, you can search for them in the storage box much faster. Don't remember the index number, just search for their key, e.g. <code>hashbox["fav_movie"]</code></p>
+    </div>
+</body>
+
+<footer>
+    <font>Thanks for reading. Thoughts are of my opinion</font>
+</footer>
+</html>
+
+
+
+
