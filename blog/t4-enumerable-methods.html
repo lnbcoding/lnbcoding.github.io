@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Adding link for google fonts, which needs to be placed as the 1st element in the head tag -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:600' rel='stylesheet' type='text/css'>
+    <title>LNB Coding</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/website-stylesheet.css">
+</head>
+
+    <header>
+        <div class="title_bar">
+            <font class="blog_name">LNB Coding</font>
+            <font class="header_text">All Dream Are Crazy Until They Come True</font>
+            <a href="http://www.twitter.com/lnbcoding"><img src="../imgs-blog/twitter_icon.png"></a>
+            <a href="http://www.github.com/lnbcoding"><img src="../imgs-blog/github.png"></a>
+            <a href="mailto:leonardbui@gmail.com"><img src="../imgs-blog/gmail_icon.jpg"></a>
+        <div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog-index.html">Blog</a></li>
+            <li><a href="../resume.html">Resume</a></li>
+            <li><a href="../aboutme.html">About Me</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+<body>
+    <div class="sub_blog">
+        <p>The Cycle Method using Schools | Oct 12, 2014</p>
+    </div>
+    <div class="main_blog">
+        <p>When I am learning and trying to remember which methods to use and why, I try to think of real life examples that I would call and use these methods. It helps me think and understand what the method is doing. When I read about the Cycle method, I thought of "The SImpsons" show and the repeating text in the blackboard.</p>
+        <p>This blog will be about the useful Cycle method in the Enumerable module of Ruby. The Enumerable module allows you to iterate one by one over each element of the array or hash (storage boxes) based on the code given in a { } block. I am going to use examples from school to showcase how to use the Cycle method.</p>
+        <p>Say you got detention and the teacher tells you to write your name until the blackboard is covered up. Instead of writing "My name is Leo" many times, we can use the Cycle method to repeat whatever is stored in the array. You have to remember that Programmers are lazy, if we can repeat something or find a shortcut than we will use it. The cycle method is just that. Say we create an array (storage box) with the elements of:</p>
+        <code>array = ["My", "name", "is", "Leo"]</code><br />
+        <code>array.cycle { |x| puts x }  <br /> # print, My, name, is, Leo, My, name, is, Leo, ... forever.</code>
+        <p>We can just create one storage box and cycle through each element to print out elements forever. That would teach the detention teacher a lesson about wasting our time and hurting our wrists.</p>
+        <p>Here is another example from school. Say a teacher has a student array filled with each student's name. The teacher needs to print out 2 copies of the class roster to give to her Dean and to her assistant teacher. Instead of typing each name twice. The clever teacher is a programmer and uses the cycle method and passes the argument of (2). This tells Ruby to cycle through each element and write out the student roster exactly 2 times.</p>
+        <code> student =["Al", "John", "Jeff", "Annie",]</code><br />
+        <code>student.cycle(2) { |x| puts x } <br /> # print, Al, John, Jeff, Annie, Al, John, Jeff, Annie</code>
+    </div>
+</body>
+
+<footer>
+    <font>Thanks for reading. Thoughts are of my opinion</font>
+</footer>
+</html>
+
+
+
+
