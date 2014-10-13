@@ -3,6 +3,10 @@ html {
     color: white;
 }
 
+code {
+  background-color: green;
+}
+
 .blog_name {
   position: relative;
   font-size: 2.5em;
