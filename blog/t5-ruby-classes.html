@@ -27,10 +27,15 @@
 
 <body>
     <div class="sub_blog">
-        <p>Title | Oct 19, 2014</p>
+        <p> Classes and NFL Players | Oct 19, 2014</p>
     </div>
     <div class="main_blog">
-        <p>TEST WILL BE HERE</p>
+        <p>When you are building some construction site, what is one of the first things you need to plan and organize your building? It's a blueprint of course. The programming language, Ruby has its own blueprint plan and we call it a Class. Each Class can have objects created from the Class blueprint . With each created, or instantiated Class, it has its own data (think of this as nouns in a sentence) and its own methods (or verbs in a sentence). Say we want to build a Class blueprint for NFL Players.</p>
+        <a href="http://tinypic.com?ref=2uy3o1i" target="_blank"><img src="http://i58.tinypic.com/2uy3o1i.png" border="0" alt="Image and video hosting by TinyPic"></a>
+        <p>Here is how we create a class (<strong>lines 1 through 13</strong> are creating the NFLPlayer class). Notice the name and the initialize method. Whenever we create/initialize an NFLPlayer from the blueprint, we need to send it the name and the positing of the player. Example given I want to create an object (or "player") using the NFLPlayer blueprint. I want to create a franchise_quaterback object so I would write it like this: <code>franchise_quarterback = NFLPlayer.new("Peyton Manning", "Quarterback")</code><br />Please see the code image example on the right.</p>
+        <p>The <code>attr_accessor :name, :position</code> is just a fancy way of saving that I can read or get the name of each NFLPLayer but I can also write or set the name of each NFLPlayer as well. A good example case of this would be Chad Johnson, a former NFL player. When he started in the NFL his official name was "Chad Johnson". However he decided to change his name to "Ocho CInco". With the <code>attr_accessor :name</code>, we are able to write or set a different name than what he began his NFLPlayer with. By the way, attr is just attribute, which is a fancy way of saying data and variables.</p>
+        <p>You may have notice the @ symbol before the <br /><code>@name = name <br /> @position = position</code></p>
+        <p>The @ just means that the variable used is an instance variable. When we create something from a Class, we are creating an instance of that Class. An instance variable means that all created objects of that NFLPlayer class will share the same variables of name and position. This means that all NFLPlayers must have a name and a position.</p>
     </div>
 </body>
 
