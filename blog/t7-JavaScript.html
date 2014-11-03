@@ -27,9 +27,25 @@
 
 <body>
     <div class="sub_blog">
-        <p>Ruby ... Javascript | Nov 2, 2014</p>
+        <p>elsif Ruby ... else if (Javascript) | Nov 2, 2014</p>
     </div>
     <div class="main_blog">
+        <p>I know my code is right. If this was in Ruby the code would run perfectly. Those words echoed in my hand as I was doing the FizzBuzz challenge in Javascript this week. My conditionals are all good, I got the syntax correct and ended each expression with a semicolon. But why oh why am I getting an error! It's because in JS, the conditional statements must be wrapped in ( ).</p>
+        <p>Doh that was annoying as it took me a good 15-20 minutes to figure out what was wrong. Below is an example of the diffs in Ruby and JS for the conditional, if statements:</p>
+        <code>
+            <h3>Javascript</h3>
+            if (num % 15 == 0)</br>
+            else if (num % 3 == 0) </br>
+            else if (num % 5 == 0) </br>
+        </code>
+        <p>For each of the conditional statements in Javascript I need to have the ( ) wrapped around that statement. </br>If this was done in Ruby I could have just wrote: </br></p>
+        <code>
+            <h3>Ruby</h3>
+            if num % 15 == 0</br>
+            elsif num % 3 == 0</br>
+            elsif num % 5 == 0</br>
+        </code>
+        <p>Also notice the changes for the else if and the elsif. It's not a really big deal but I need to be aware of this. The concepts are fairly similar but there are these small changes that can save some internal heart aches. You must remember them and also use the Sublime built in shortcuts to help you!</p>
     </div>
 </body>
 
@@ -37,8 +53,3 @@
     <font>Thanks for reading. Thoughts are of my opinion</font>
 </footer>
 </html>
-
-
-
-
-
