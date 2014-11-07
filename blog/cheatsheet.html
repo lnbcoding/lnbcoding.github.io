@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Ruby Hash Cheatsheet</title>
+    <link type="text/css" rel="stylesheet" href="./cheatsheet_stylesheet.css"/>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Ruby Hash Cheatsheet</h1>
+      <h4>By: Nirag Amin and Leonard Bui</h4>
+    </div>
+
+    <div class="main-body">
+      <h2>Hash Example</h2>
+      <p>What is a Hash? It is a Ruby object that stores information in pair with a key=>value structure.</p>
+      <p>Here is an example of a Hash in Ruby.</p>
+      <p>line 4 is where we declare the Hash, named foods</p>
+      <img src="../imgs-blog/foods_hash.png">
+      <p>To the left of the hash rocket, => symbol are the keys</p>
+      <p>To the right of the => symbol are the values. In this case, the values are actually stored in an [array].</p>
+    </div>
+
+    <div class="main-body">
+      <h2>Hash Methods</h2>
+      <p>How would you display just the keys in a Ruby Hash?</p>
+      <p>On line 12 we define the method name and we want to pass the hash name over as an (argument)</p>
+      <p>We are interested in just the keys of the hash so we can use the each_key method to display just keys</p>
+      <img src="../imgs-blog/food_type_method.png">
+      <p>How would you display just the values in a Ruby Hash?</p>
+      <p>Very similar concept, we define the method in line 21 with the hash name as the (argument)</p>
+      <img src="../imgs-blog/food_item_method.png">
+    </div>
+
+    <div class="main-body">
+      <h2>Outcome of the Hash</h2>
+      <p>We can call the function by simple typing the function name and passing the name of the hash we want to use: </br><code>food_type(foods)</code></p>
+      <p>Because we are using puts, each key will be displayed in a separate link:</p>
+      <p>Italian</p>
+      <p>Chinese</p>
+      <p>American</p>
+      <p>----------------------------------------------------------</p>
+      <p>After we call the function to display just the values of the hash</br><code>food_items(foods)</code></p>
+      <p>Here is the output of values from our foods hash example</p>
+      <p>chicken parmesan</p>
+      <p>pasta</p>
+      <p>pizza</p>
+      <p>kung pao chicken</p>
+      <p>orange chicken</p>
+      <p>spring rolls</p>
+      <p>dim sum</p>
+      <p>fries</p>
+      <p>burgers</p>
+      <p>hot dogs</p>
+    </div>
+
+  </body>
+
+</html>

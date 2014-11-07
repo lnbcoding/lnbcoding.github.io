@@ -1,0 +1,36 @@
+html {
+    background-color: #F5F5DC;
+}
+
+.title {
+  width: 99%;
+  height: 150px;
+  background-color: #d3d3d3;
+  text-align: center;
+  padding-top: 25px;
+  border: 5px solid;
+}
+
+p {
+  font-size: 15px;
+}
+
+img {
+    width:auto;
+    height:100px;
+}
+
+code {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+}
+
+.main-body {
+  width: 95%;
+  margin: 2%;
+  border: 2px dotted black;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+}
