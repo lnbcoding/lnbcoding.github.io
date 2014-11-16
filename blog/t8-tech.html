@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <!-- Adding link for google fonts, which needs to be placed as the 1st element in the head tag -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:600' rel='stylesheet' type='text/css'>
-    <title>LNB Coding</title>
-    <link rel="stylesheet" type="text/css" href="../stylesheets/website-stylesheet.css">
-</head>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:600' rel='stylesheet' type='text/css'>
+        <title>LNB Coding</title>
+        <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    </head>
 
     <header>
-        <div class="title_bar">
-            <font class="blog_name">LNB Coding</font>
-            <font class="header_text">All Dream Are Crazy Until They Come True</font>
-            <a href="http://www.twitter.com/lnbcoding"><img src="../imgs-blog/twitter_icon.png"></a>
-            <a href="http://www.github.com/lnbcoding"><img src="../imgs-blog/github.png"></a>
-            <a href="mailto:leonardbui@gmail.com"><img src="../imgs-blog/gmail_icon.jpg"></a>
-        <div>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../blog-index.html">Blog</a></li>
-            <li><a href="../resume.html">Resume</a></li>
-            <li><a href="../aboutme.html">About Me</a></li>
-            <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <div class = "title">
+            <a href="../index.html">
+                <h1>LNB Coding</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../blog-index.html">Blog</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../aboutme.html">About Me</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-<body>
-    <div class="sub_blog">
-        <p>Recursion ... | Nov 9, 2014</p>
-    </div>
-    <div class="main_blog">
-        <p>When I ask the Developers I use to work with about recursion, the always come back with this joke: "In order to understand recursion, you need to understand recursion." Well I don't understand recursion but this blog will be about researching on this fascinating Computer Science topic. The most basic definition of recursion is a function that calls itself.</p>
-        <p>Usually in a program, a function is declared and defined at the beginning of a file. Please see the simple function below.</p>
-        <code>
-            def print_name(name)</br>
-                print "Hello, #{name} how's it going? Have a good day, buddy."</br>
-            end</br>
-        </code>
-        <p>In order to get the function to work, we need to call it using the function name of:</p>
-        <code>print_name("Leonard)</code>
-        <p>Recursion breaks down a large, complex problem into smaller versions of itself. This <a href="http://stackoverflow.com/questions/717725/understanding-recursion"> post on stackoverflow</a> gave a pretty good explanation on recursion with the following example:</p>
-        <p>How do you empty a vase containing three flowers?
-        Answer: if the vase is not empty, you take out one flower and then you empty a vase containing two flowers.</br></br>
-        How do you empty a vase containing two flowers?
-        Answer: if the vase is not empty, you take out one flower and then you empty a vase containing one flower.</br></br>
-        How do you empty a vase containing one flower?
-        Answer: if the vase is not empty, you take out one flower and then you empty a vase containing no flowers.</br></br>
-        How do you empty a vase containing no flowers?
-        Answer: if the vase is not empty, you take out one flower but the vase is empty so you're done.</br></br>
-        That's repetitive. Let's generalize it:</br></br>
-        How do you empty a vase containing N flowers?
-        Answer: if the vase is not empty, you take out one flower and then you empty a vase containing N-1 flowers.</p>
-        <p>This is just a general simple explanation. In fact, with that example we could have used a for loop. But with more complex problems where you can break it down to smaller, recursive steps, a recursive function would be better. When at Devbootcamp, I hope to learn more and understand recursion so that I can now make the joke to others who ask me about it!</p>
-    </div>
-</body>
+    <body>
+        <div class="sub_blog">
+            <p>Recursion ... | Nov 9, 2014</p>
+        </div>
+        <div class="main_blog">
+            <p>When I ask the Developers I use to work with about recursion, the always come back with this joke: "In order to understand recursion, you need to understand recursion." Well I don't understand recursion but this blog will be about researching on this fascinating Computer Science topic. The most basic definition of recursion is a function that calls itself.</p>
+            <p>Usually in a program, a function is declared and defined at the beginning of a file. Please see the simple function below.</p>
+            <code>
+                def print_name(name)</br>
+                    print "Hello, #{name} how's it going? Have a good day, buddy."</br>
+                end</br>
+            </code>
+            <p>In order to get the function to work, we need to call it using the function name of:</p>
+            <code>print_name("Leonard)</code>
+            <p>Recursion breaks down a large, complex problem into smaller versions of itself. This <a href="http://stackoverflow.com/questions/717725/understanding-recursion"> post on stackoverflow</a> gave a pretty good explanation on recursion with the following example:</p>
+            <p>How do you empty a vase containing three flowers?
+            Answer: if the vase is not empty, you take out one flower and then you empty a vase containing two flowers.</br></br>
+            How do you empty a vase containing two flowers?
+            Answer: if the vase is not empty, you take out one flower and then you empty a vase containing one flower.</br></br>
+            How do you empty a vase containing one flower?
+            Answer: if the vase is not empty, you take out one flower and then you empty a vase containing no flowers.</br></br>
+            How do you empty a vase containing no flowers?
+            Answer: if the vase is not empty, you take out one flower but the vase is empty so you're done.</br></br>
+            That's repetitive. Let's generalize it:</br></br>
+            How do you empty a vase containing N flowers?
+            Answer: if the vase is not empty, you take out one flower and then you empty a vase containing N-1 flowers.</p>
+            <p>This is just a general simple explanation. In fact, with that example we could have used a for loop. But with more complex problems where you can break it down to smaller, recursive steps, a recursive function would be better. When at Devbootcamp, I hope to learn more and understand recursion so that I can now make the joke to others who ask me about it!</p>
+        </div>
+    </body>
 
-<footer>
-    <font>Thanks for reading. Thoughts are of my opinion</font>
-</footer>
+    <footer>
+        <div>
+            <a href="http://www.twitter.com/lnbcoding"><img src="../imgs-blog/twitter_icon.png" id="social_icon"></a>
+            <a href="http://www.github.com/lnbcoding"><img src="../imgs-blog/github_icon.png" id="social_icon"></a>
+            <a href="mailto:leonardbui@gmail.com"><img src="../imgs-blog/gmail_icon.png" id="social_icon"></a>
+        </div>
+        <font>Thanks for reading. Thoughts are of my opinion</font>
+    </footer>
 </html>
 
 

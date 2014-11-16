@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <!-- Adding link for google fonts, which needs to be placed as the 1st element in the head tag -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:600' rel='stylesheet' type='text/css'>
-    <title>LNB Coding</title>
-    <link rel="stylesheet" type="text/css" href="../stylesheets/website-stylesheet.css">
-</head>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:600' rel='stylesheet' type='text/css'>
+        <title>LNB Coding</title>
+        <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    </head>
 
     <header>
-        <div class="title_bar">
-            <font class="blog_name">LNB Coding</font>
-            <font class="header_text">All Dream Are Crazy Until They Come True</font>
-            <a href="http://www.twitter.com/lnbcoding"><img src="../imgs-blog/twitter_icon.png"></a>
-            <a href="http://www.github.com/lnbcoding"><img src="../imgs-blog/github.png"></a>
-            <a href="mailto:leonardbui@gmail.com"><img src="../imgs-blog/gmail_icon.jpg"></a>
-        <div>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../blog-index.html">Blog</a></li>
-            <li><a href="../resume.html">Resume</a></li>
-            <li><a href="../aboutme.html">About Me</a></li>
-            <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <div class = "title">
+            <a href="../index.html">
+                <h1>LNB Coding</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../blog-index.html">Blog</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../aboutme.html">About Me</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-<body>
-    <div class="sub_blog">
-        <p>NFL Scope it up | Oct 26, 2014</p>
-    </div>
-    <div class="main_blog">
-        <p>Ruby supports the following variables: <code><br /><br />$global_var  = accessed and available throughout the entire program. Var name is not available to use again<br /> <br />@@class_var  = available for all instances/objects of that class<br /><br /> @instance_var = available only for the specific instance of that class<br /><br /> local_var = available only in the code block where the variable was defined in<br /><br /> CONSTANT = a constant value, it is good practice to not change this value<br /> </code></p>
-        <p>I am going to give out an example of each variable's scope using real-life examples. Let's use the NFL as an example since it is so awesome to watch</p>
-        <p>The NFL is America's favorite sports to watch. In this case, we set it a global var of <code>$nfl = "America's number one sport"</code> No matter what happens throughout our program, the global variable of <code>$nfl</code> will have that string assigned to it and the variable of <code>$nfl</code> is not available to use as a variable name anymore.</p>
-        <p>Let's say we have a class Players with a class variable of <code>@@nfl_players = []</code> We want to get a count of all the players in the NFL. We can use that class variable and store all the player objects we created into that <code>@@nfl_players</code> variable. This class variable is available to all player objects whether they play on offense, defense, special teams or a superstar veteran or just a humble rookie bench player.</p>
-        <p>For an instance variable that is only available for that created object, we can think of a player's <code>@jersey_number</code> This means that all objects of that Player class has access to a variable named jersey_number where the player can have a jersey number assigned to them.</p>
-        <p>I often get confused between a <code>@@class_var</code> and an <code>@instance_var</code>. I just try and think, will this variable be shared by all objects of that class? Or will that variable be only for that specific instance of the class?</p>
-        <p>A good local var example would be a variable name that is general and we can re-use in later parts of the program. One of the metrics NFL scouts are obsessed over are a player's <code>time</code>. Whether that be the 40 yd dash, the 10yd shuttle run, or how long a player has been on the injured list. With a local_var of <code>time</code> we can use the same name of <code>time</code> for the different parts to calculate the 40 yd dash, the 10 yd shuttle run, and so on</p>
-        <p>In this case a CONSTANT would be easy for the NFL program, we can use <code>FIELD_GOAL = 3</code> to set the value of the FIELD_GOAL constant as 3. No matter what happens in the NFL, a field goal is always worth 3 points. Notice how all the letters are upper-case, each scope variable type should match the naming conventions I listed above in order for Ruby to pick them up.</p>
-    </div>
-</body>
+    <body>
+        <div class="sub_blog">
+            <p>NFL Scope it up | Oct 26, 2014</p>
+        </div>
+        <div class="main_blog">
+            <p>Ruby supports the following variables: <code><br /><br />$global_var  = accessed and available throughout the entire program. Var name is not available to use again<br /> <br />@@class_var  = available for all instances/objects of that class<br /><br /> @instance_var = available only for the specific instance of that class<br /><br /> local_var = available only in the code block where the variable was defined in<br /><br /> CONSTANT = a constant value, it is good practice to not change this value<br /> </code></p>
+            <p>I am going to give out an example of each variable's scope using real-life examples. Let's use the NFL as an example since it is so awesome to watch</p>
+            <p>The NFL is America's favorite sports to watch. In this case, we set it a global var of <code>$nfl = "America's number one sport"</code> No matter what happens throughout our program, the global variable of <code>$nfl</code> will have that string assigned to it and the variable of <code>$nfl</code> is not available to use as a variable name anymore.</p>
+            <p>Let's say we have a class Players with a class variable of <code>@@nfl_players = []</code> We want to get a count of all the players in the NFL. We can use that class variable and store all the player objects we created into that <code>@@nfl_players</code> variable. This class variable is available to all player objects whether they play on offense, defense, special teams or a superstar veteran or just a humble rookie bench player.</p>
+            <p>For an instance variable that is only available for that created object, we can think of a player's <code>@jersey_number</code> This means that all objects of that Player class has access to a variable named jersey_number where the player can have a jersey number assigned to them.</p>
+            <p>I often get confused between a <code>@@class_var</code> and an <code>@instance_var</code>. I just try and think, will this variable be shared by all objects of that class? Or will that variable be only for that specific instance of the class?</p>
+            <p>A good local var example would be a variable name that is general and we can re-use in later parts of the program. One of the metrics NFL scouts are obsessed over are a player's <code>time</code>. Whether that be the 40 yd dash, the 10yd shuttle run, or how long a player has been on the injured list. With a local_var of <code>time</code> we can use the same name of <code>time</code> for the different parts to calculate the 40 yd dash, the 10 yd shuttle run, and so on</p>
+            <p>In this case a CONSTANT would be easy for the NFL program, we can use <code>FIELD_GOAL = 3</code> to set the value of the FIELD_GOAL constant as 3. No matter what happens in the NFL, a field goal is always worth 3 points. Notice how all the letters are upper-case, each scope variable type should match the naming conventions I listed above in order for Ruby to pick them up.</p>
+        </div>
+    </body>
 
-<footer>
-    <font>Thanks for reading. Thoughts are of my opinion</font>
-</footer>
+    <footer>
+        <div>
+            <a href="http://www.twitter.com/lnbcoding"><img src="../imgs-blog/twitter_icon.png" id="social_icon"></a>
+            <a href="http://www.github.com/lnbcoding"><img src="../imgs-blog/github_icon.png" id="social_icon"></a>
+            <a href="mailto:leonardbui@gmail.com"><img src="../imgs-blog/gmail_icon.png" id="social_icon"></a>
+        </div>
+        <font>Thanks for reading. Thoughts are of my opinion</font>
+    </footer>
 </html>

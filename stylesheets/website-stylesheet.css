@@ -1,34 +1,117 @@
+/***************************************
+SPECIAL FORMATTING (e.g. Code tags)
+****************************************/
+
 html {
-    background-color: #303030;
-    color: white;
+  background-color: #303030;
+  color: white;
 }
 
 code {
   background-color: green;
 }
 
-.blog_name {
+/***************************************
+HEADER
+****************************************/
+
+header {
+  float: left;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+header nav {
+  margin-top: 38px;
+  margin-right: 20px;
+}
+
+header ul {
+  padding: 10px;
+  background: #0e1215;
+}
+
+header li {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+}
+
+.title {
+ margin-left: 10px;
+}
+
+/***************************************
+FONT TREATMENT
+****************************************/
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+  display: block;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3 {
+  font-size: 1.25em;
+  display: block;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.main p {
+  font-size: 16px;
+  display: inline;
+}
+
+/***************************************
+BLOG
+****************************************/
+
+/*.blog_name {
   position: relative;
   font-size: 2.5em;
   font-weight: bold;
 }
+*/
+
+.blog_cat {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin: 4%;
+  /*border: 2px dashed black;*/
+  text-align: center;
+}
+
+.main_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  width: 600px;
+}
 
 .sub_blog {
-    display: block;
-    text-align: center;
+  display: block;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main_blog {
-  /*text-align: center;*/
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.header_text {
-  position: absolute;
-  font-size: 1em;
-  font-size: italic;
-  margin: 15px 20% 0 20%;
-  width: 25%;
+/***************************************
+ANCHOR TAGS
+****************************************/
+
+a {
+  text-decoration: none;
 }
 
 a:link {
@@ -43,52 +126,33 @@ a:hover {
   color: #FFD68F;
 }
 
-.title_bar img {
-  width: 45px;
-  height: 45px;
-  float: right;
-}
-
-header ul {
-  padding: 10px;
-  background: #0e1215;
-}
-
-header li {
-  display: inline;
-  padding: 0px 15px 0px 15px;
-}
-
-h2 {
-  font-size: 1.75em;
-  display: block;
-  text-align: center;
-  /*using google fonts and cursive as the backup*/
-  font-family: 'Gloria Hallelujah', cursive;
-}
-
-.main p {
-  font-size: 16px;
-  display: inline;
-}
+/***************************************
+PAGE SECTIONS
+****************************************/
 
 li {
   color: #09D8B2;
   font-family: 'Open Sans', sans-serif;
 }
 
-img {
-  float: right;
-  display: block;
-  margin-right: 5px;
-  width: 600px;
-  height: 350px;
-}
+/***************************************
+FOOTER
+****************************************/
 
 footer {
   border: 1px solid #101010;
-  background: #0e1215;
+  /*background: #0e1215;*/
+  background: #222222;
+  font-size: 1em;
   text-align: center;
+  clear: both;
   padding: 20px 0px 20px 4px;
-  margin-top: 35%
+  color: #ccc;
+}
+
+#social_icon {
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+  padding-bottom: 10px;
 }

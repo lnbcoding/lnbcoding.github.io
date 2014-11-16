@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <!-- Adding link for google fonts, which needs to be placed as the 1st element in the head tag -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:600' rel='stylesheet' type='text/css'>
-    <title>LNB Coding</title>
-    <link rel="stylesheet" type="text/css" href="../stylesheets/website-stylesheet.css">
-</head>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:600' rel='stylesheet' type='text/css'>
+        <title>LNB Coding</title>
+        <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    </head>
 
     <header>
-        <div class="title_bar">
-            <font class="blog_name">LNB Coding</font>
-            <font class="header_text">All Dream Are Crazy Until They Come True</font>
-            <a href="http://www.twitter.com/lnbcoding"><img src="../imgs-blog/twitter_icon.png"></a>
-            <a href="http://www.github.com/lnbcoding"><img src="../imgs-blog/github.png"></a>
-            <a href="mailto:leonardbui@gmail.com"><img src="../imgs-blog/gmail_icon.jpg"></a>
-        <div>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../blog-index.html">Blog</a></li>
-            <li><a href="../resume.html">Resume</a></li>
-            <li><a href="../aboutme.html">About Me</a></li>
-            <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <div class = "title">
+            <a href="../index.html">
+                <h1>LNB Coding</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../blog-index.html">Blog</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../aboutme.html">About Me</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-<body>
-    <div class="sub_blog">
-        <p>elsif Ruby ... else if (Javascript) | Nov 2, 2014</p>
-    </div>
-    <div class="main_blog">
-        <p>I know my code is right. If this was in Ruby the code would run perfectly. Those words echoed in my hand as I was doing the FizzBuzz challenge in Javascript this week. My conditionals are all good, I got the syntax correct and ended each expression with a semicolon. But why oh why am I getting an error! It's because in JS, the conditional statements must be wrapped in ( ).</p>
-        <p>Doh that was annoying as it took me a good 15-20 minutes to figure out what was wrong. Below is an example of the diffs in Ruby and JS for the conditional, if statements:</p>
-        <code>
-            <h3>Javascript</h3>
-            if (num % 15 == 0)</br>
-            else if (num % 3 == 0) </br>
-            else if (num % 5 == 0) </br>
-        </code>
-        <p>For each of the conditional statements in Javascript I need to have the ( ) wrapped around that statement. </br>If this was done in Ruby I could have just wrote: </br></p>
-        <code>
-            <h3>Ruby</h3>
-            if num % 15 == 0</br>
-            elsif num % 3 == 0</br>
-            elsif num % 5 == 0</br>
-        </code>
-        <p>Also notice the changes for the else if and the elsif. It's not a really big deal but I need to be aware of this. The concepts are fairly similar but there are these small changes that can save some internal heart aches. You must remember them and also use the Sublime built in shortcuts to help you!</p>
-    </div>
-</body>
+    <body>
+        <div class="sub_blog">
+            <p>elsif Ruby ... else if (Javascript) | Nov 2, 2014</p>
+        </div>
+        <div class="main_blog">
+            <p>I know my code is right. If this was in Ruby the code would run perfectly. Those words echoed in my hand as I was doing the FizzBuzz challenge in Javascript this week. My conditionals are all good, I got the syntax correct and ended each expression with a semicolon. But why oh why am I getting an error! It's because in JS, the conditional statements must be wrapped in ( ).</p>
+            <p>Doh that was annoying as it took me a good 15-20 minutes to figure out what was wrong. Below is an example of the diffs in Ruby and JS for the conditional, if statements:</p>
+            <code>
+                <h3>Javascript</h3>
+                if (num % 15 == 0)</br>
+                else if (num % 3 == 0) </br>
+                else if (num % 5 == 0) </br>
+            </code>
+            <p>For each of the conditional statements in Javascript I need to have the ( ) wrapped around that statement. </br>If this was done in Ruby I could have just wrote: </br></p>
+            <code>
+                <h3>Ruby</h3>
+                if num % 15 == 0</br>
+                elsif num % 3 == 0</br>
+                elsif num % 5 == 0</br>
+            </code>
+            <p>Also notice the changes for the else if and the elsif. It's not a really big deal but I need to be aware of this. The concepts are fairly similar but there are these small changes that can save some internal heart aches. You must remember them and also use the Sublime built in shortcuts to help you!</p>
+        </div>
+    </body>
 
-<footer>
-    <font>Thanks for reading. Thoughts are of my opinion</font>
-</footer>
+    <footer>
+        <div>
+            <a href="http://www.twitter.com/lnbcoding"><img src="../imgs-blog/twitter_icon.png" id="social_icon"></a>
+            <a href="http://www.github.com/lnbcoding"><img src="../imgs-blog/github_icon.png" id="social_icon"></a>
+            <a href="mailto:leonardbui@gmail.com"><img src="../imgs-blog/gmail_icon.png" id="social_icon"></a>
+        </div>
+        <font>Thanks for reading. Thoughts are of my opinion</font>
+    </footer>
 </html>
