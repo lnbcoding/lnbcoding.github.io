@@ -150,21 +150,21 @@ ANCHOR TAGS
 
 a {
   text-decoration: none;
+  color: #9e4569;
 }
 
 a:link {
   /*color: #0DADFF;*/
-  color: #51BBFE;
+  /*color: #51BBFE;*/
 }
 
 a:visited {
-  color: #9e4569;
+  /*color: #9e4569;*/
   /*color: #A5402D;*/
 }
 
 a:hover {
-  /*color: #FFD68F;*/
-  color: #F3F9D2;
+  color: #FFD68F;
 }
 
 /***************************************
