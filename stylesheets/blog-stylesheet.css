@@ -18,12 +18,7 @@ HEADER
 header {
   float: left;
   padding: 5px 0 0 0;
-  width: 100%;
-}
-
-header nav {
-  margin-top: 38px;
-  margin-right: 20px;
+  min-width: 100%;
 }
 
 header ul {
@@ -36,8 +31,15 @@ header li {
   padding: 0px 15px 0px 15px;
 }
 
-.title {
- margin-left: 10px;
+.nav-links code {
+  font-size: 2.5em;
+  background-color: #eff2ef;
+  color: #cc5987;
+}
+
+.nav-links code:hover {
+  background-color: #e36397;
+  color: #eff2ef;
 }
 
 /***************************************
@@ -112,14 +114,7 @@ ANCHOR TAGS
 
 a {
   text-decoration: none;
-}
-
-a:link {
-  color: #0DADFF;
-}
-
-a:visited {
-  color: #F800FF;
+  color: #e36397;
 }
 
 a:hover {
