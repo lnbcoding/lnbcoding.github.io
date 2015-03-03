@@ -226,7 +226,7 @@ MEDIA QUERIES
 
 }
 
-@media only screen and (max-width: 592px) {
+@media only screen and (max-width: 360px) {
   .nav {
     margin: 10px 70px 10px 70px;
     padding: 0 40px 0 40px;
