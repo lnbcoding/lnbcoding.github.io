@@ -217,3 +217,37 @@ footer {
   margin: 0 5px;
   padding-bottom: 10px;
 }
+
+/***************************************
+MEDIA QUERIES
+****************************************/
+
+@media only screen and (max-width: 740px) {
+
+}
+
+@media only screen and (max-width: 592px) {
+  .nav {
+    margin: 10px 70px 10px 70px;
+    padding: 0 40px 0 40px;
+  }
+
+  .about-me p,  .resume p, .contact p {
+    font-size: 1em;
+    display: inline-block;
+    max-width: 75%;
+    margin-left: 12%;
+  }
+
+  .main_img {
+    width: 400px;
+}
+
+  h2 {
+    font-size: 1.5em;
+}
+
+  .resume-box {
+    font-size: .88em;
+  }
+}
