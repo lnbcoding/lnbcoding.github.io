@@ -181,6 +181,22 @@ li {
 }
 
 /***************************************
+RESUME SECTION
+****************************************/
+
+.resume-box {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  height: 320px;
+  margin: 4%;
+  border: 2px dashed black;
+  border-radius: 5%;
+  background-color: #BC8DA7;
+  /*text-align: center;*/
+}
+
+/***************************************
 FOOTER
 ****************************************/
 
