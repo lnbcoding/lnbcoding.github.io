@@ -3,6 +3,7 @@ SPECIAL FORMATTING (e.g. Code tags)
 ****************************************/
 
 html {
+  /*background-color: #303030;*/
   background-color: #303030;
   color: white;
 }
@@ -93,7 +94,7 @@ strong {
 
 span {
   margin-top: 1.5%;
-  font-size: .9em;
+  font-size: .89em;
   display: block;
 }
 
