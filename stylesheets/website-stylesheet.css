@@ -251,11 +251,11 @@ MEDIA QUERIES
     height: 750px;
   }
 
-  .resume-box span {
+  span {
     font-size: .65em;
   }
 
-  .blog_cat p {
-    font-size: .75em;
+  .blog_cat a {
+    font-size: .65em;
   }
 }
