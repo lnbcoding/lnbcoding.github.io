@@ -248,7 +248,11 @@ MEDIA QUERIES
 }
 
   .resume-box {
-    font-size: .5em;
+    font-size: .75em;
     height: 750px;
+  }
+
+  .blog_cat p {
+    font-size: .75em;
   }
 }
