@@ -110,13 +110,6 @@ span i {
 BLOG
 ****************************************/
 
-/*.blog_name {
-  position: relative;
-  font-size: 2.5em;
-  font-weight: bold;
-}
-*/
-
 .blog_cat {
   float: left;
   display: inline-block;
@@ -146,7 +139,6 @@ IMAGES
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
-  width: 600px;
   width: 600px;
 }
 
@@ -224,4 +216,38 @@ footer {
   height: 35px;
   margin: 0 5px;
   padding-bottom: 10px;
+}
+
+/***************************************
+MEDIA QUERIES
+****************************************/
+
+@media only screen and (max-width: 740px) {
+
+}
+
+@media only screen and (max-width: 592px) {
+  .nav {
+    margin: 10px 70px 10px 70px;
+    padding: 0 40px 0 40px;
+  }
+
+  .about-me p,  .resume p, .contact p {
+    font-size: 1em;
+    display: inline-block;
+    max-width: 75%;
+    margin-left: 12%;
+  }
+
+  .main_img {
+    width: 400px;
+}
+
+  h2 {
+    font-size: 1.5em;
+}
+
+  .resume-box {
+    font-size: .88em;
+  }
 }
