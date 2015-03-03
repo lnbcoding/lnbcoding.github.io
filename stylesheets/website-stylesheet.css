@@ -221,11 +221,20 @@ footer {
 MEDIA QUERIES
 ****************************************/
 
-@media only screen and (max-width: 740px) {
-
+/***** Laptop/Tablet (1024px) *****/
+@media only screen and (min-width: 481px) and (max-width: 1024px)  and (orientation: landscape) {
 }
 
-@media only screen and (max-width: 360px) {
+/***** Tablet Portrait (768px) *****/
+@media only screen and (min-width: 321px) and (max-width: 1024px)  and (orientation: portrait) {
+}
+
+/***** Phone Landscape (480px) *****/
+@media only screen and (min-width: 321px) and (max-width: 480px)  and (orientation: landscape) {
+}
+
+/***** Phone Portrait (320px) *****/
+@media only screen and (max-width: 320px) {
   .nav {
     margin: 10px 70px 10px 70px;
     padding: 0 40px 0 40px;
