@@ -233,21 +233,21 @@ MEDIA QUERIES
   }
 
   .about-me p,  .resume p, .contact p {
-    font-size: 1em;
+    font-size: .75em;
     display: inline-block;
     max-width: 75%;
     margin-left: 12%;
   }
 
   .main_img {
-    width: 400px;
+    width: 200px;
 }
 
   h2 {
-    font-size: 1.5em;
+    font-size: .85em;
 }
 
   .resume-box {
-    font-size: .88em;
+    font-size: .5em;
   }
 }
