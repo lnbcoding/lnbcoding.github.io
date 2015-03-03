@@ -110,13 +110,6 @@ span i {
 BLOG
 ****************************************/
 
-/*.blog_name {
-  position: relative;
-  font-size: 2.5em;
-  font-weight: bold;
-}
-*/
-
 .blog_cat {
   float: left;
   display: inline-block;
