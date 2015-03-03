@@ -120,14 +120,6 @@ BLOG
   text-align: center;
 }
 
-.main_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-  width: 600px;
-}
-
 .sub_blog {
   display: block;
   font-size: 1.1em;
