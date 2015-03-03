@@ -48,6 +48,11 @@ header li {
   color: #cc5987;
 }
 
+.nav-links code:hover {
+  background-color: #e36397;
+  color: #eff2ef;
+}
+
 /***************************************
 FONT TREATMENT
 ****************************************/
