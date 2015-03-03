@@ -64,21 +64,9 @@ h3 {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-.main p {
-  font-size: 16px;
-  display: inline;
-}
-
 /***************************************
 BLOG
 ****************************************/
-
-/*.blog_name {
-  position: relative;
-  font-size: 2.5em;
-  font-weight: bold;
-}
-*/
 
 .blog_cat {
   float: left;
@@ -106,6 +94,7 @@ BLOG
 
 .main_blog {
   font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
 }
 
 /***************************************
