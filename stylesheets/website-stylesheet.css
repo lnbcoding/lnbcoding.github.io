@@ -171,6 +171,10 @@ a:hover {
 PAGE SECTIONS
 ****************************************/
 
+section {
+  margin-top: 7%;
+}
+
 li {
   color: #09D8B2;
   font-family: 'Open Sans', sans-serif;
