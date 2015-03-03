@@ -155,7 +155,8 @@ ANCHOR TAGS
 
 a {
   text-decoration: none;
-  color: #9e4569;
+  /*color: #9e4569;*/
+  color: #e36397;
 }
 
 a:link {
@@ -197,7 +198,8 @@ RESUME SECTION
   margin: 4%;
   border: 2px dashed black;
   border-radius: 5%;
-  background-color: #BC8DA7;
+  /*background-color: #BC8DA7;*/
+  background-color: #883b5a;
   /*text-align: center;*/
 }
 
