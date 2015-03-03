@@ -158,7 +158,8 @@ a:link {
 }
 
 a:visited {
-  color: #F800FF;
+  color: #9e4569;
+  /*color: #A5402D;*/
 }
 
 a:hover {
