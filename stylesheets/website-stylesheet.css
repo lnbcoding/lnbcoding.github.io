@@ -70,9 +70,34 @@ h3 {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
+.about-me p,  .resume p, .contact p {
+  font-size: 1.25em;
+  display: inline-block;
+  max-width: 75%;
+  margin-left: 12%;
+}
+
 .main p {
   font-size: 16px;
   display: inline;
+}
+
+strong {
+  font-size: 1em;
+}
+
+span {
+  margin-top: 1.5%;
+  font-size: .9em;
+  display: block;
+}
+
+span strong {
+  font-size: 1.15em;
+}
+
+span i {
+  font-size: 1em;
 }
 
 /***************************************
@@ -95,14 +120,6 @@ BLOG
   text-align: center;
 }
 
-.main_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-  width: 600px;
-}
-
 .sub_blog {
   display: block;
   font-size: 1.1em;
@@ -115,6 +132,19 @@ BLOG
 }
 
 /***************************************
+IMAGES
+****************************************/
+
+.main_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  width: 600px;
+  width: 600px;
+}
+
+/***************************************
 ANCHOR TAGS
 ****************************************/
 
@@ -123,24 +153,47 @@ a {
 }
 
 a:link {
-  color: #0DADFF;
+  /*color: #0DADFF;*/
+  color: #51BBFE;
 }
 
 a:visited {
-  color: #F800FF;
+  color: #9e4569;
+  /*color: #A5402D;*/
 }
 
 a:hover {
-  color: #FFD68F;
+  /*color: #FFD68F;*/
+  color: #F3F9D2;
 }
 
 /***************************************
 PAGE SECTIONS
 ****************************************/
 
+section {
+  margin-top: 7%;
+}
+
 li {
   color: #09D8B2;
   font-family: 'Open Sans', sans-serif;
+}
+
+/***************************************
+RESUME SECTION
+****************************************/
+
+.resume-box {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  height: 320px;
+  margin: 4%;
+  border: 2px dashed black;
+  border-radius: 5%;
+  background-color: #BC8DA7;
+  /*text-align: center;*/
 }
 
 /***************************************
