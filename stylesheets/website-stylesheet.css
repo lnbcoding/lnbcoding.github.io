@@ -115,7 +115,6 @@ BLOG
   display: inline-block;
   width: 40%;
   margin: 4%;
-  /*border: 2px dashed black;*/
   text-align: center;
 }
 
@@ -222,11 +221,20 @@ footer {
 MEDIA QUERIES
 ****************************************/
 
-@media only screen and (max-width: 740px) {
-
+/***** Laptop/Tablet (1024px) *****/
+@media only screen and (min-width: 481px) and (max-width: 1024px)  and (orientation: landscape) {
 }
 
-@media only screen and (max-width: 360px) {
+/***** Tablet Portrait (768px) *****/
+@media only screen and (min-width: 321px) and (max-width: 1024px)  and (orientation: portrait) {
+}
+
+/***** Phone Landscape (480px) *****/
+@media only screen and (min-width: 321px) and (max-width: 480px)  and (orientation: landscape) {
+}
+
+/***** Phone Portrait (320px) *****/
+@media only screen and (max-width: 320px) {
   .nav {
     margin: 10px 70px 10px 70px;
     padding: 0 40px 0 40px;
@@ -240,7 +248,7 @@ MEDIA QUERIES
   }
 
   .main_img {
-    width: 200px;
+    width: 150px;
 }
 
   h2 {
@@ -248,7 +256,12 @@ MEDIA QUERIES
 }
 
   .resume-box {
-    height: 750px;
+    float: left;
+    background-color: #883b5a;
+    display: inline-block;
+    width: 40%;
+    margin: 4%;
+    text-align: center;
   }
 
   span {
