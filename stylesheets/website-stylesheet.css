@@ -163,7 +163,8 @@ a:visited {
 }
 
 a:hover {
-  color: #FFD68F;
+  /*color: #FFD68F;*/
+  color: #F3F9D2;
 }
 
 /***************************************
