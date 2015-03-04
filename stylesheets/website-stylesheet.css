@@ -256,6 +256,20 @@ MEDIA QUERIES
     font-size: 150%;
   }
 
+  .nav-links {
+      margin-top: -5px;
+  }
+
+  .nav-links li {
+      /*padding: 0 1.5%;*/
+      width: inherit;
+      font-size: 90%;
+  }
+
+  .about-me {
+    margin-top: 10%;
+  }
+
   .resume-box {
     float: none;
     display: inline;
@@ -264,7 +278,7 @@ MEDIA QUERIES
   }
 
   .main_img {
-    width: 400px;
+    width: 350px;
   }
 
   .page-section p {
