@@ -184,12 +184,7 @@ PAGE SECTIONS
 ****************************************/
 
 section {
-  margin-top: 7%;
-}
-
-li {
-  color: #09D8B2;
-  font-family: 'Open Sans', sans-serif;
+  width: 100%;
 }
 
 /***************************************
@@ -244,45 +239,42 @@ MEDIA QUERIES
 }
 
 /***** Phone Landscape (480px) *****/
-@media only screen and (min-width: 321px) and (max-width: 480px)  and (orientation: landscape) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
 }
 
-/***** Phone Portrait (320px) *****/
-@media only screen and (max-width: 320px) {
-  .nav {
-    margin: 10px 70px 10px 70px;
-    padding: 0 40px 0 40px;
+@media only screen and (max-width: 680px) {
+
+  header li {
+    font-size: 100%;
   }
 
-  .about-me p,  .resume p, .contact p {
-    font-size: .75em;
-    display: inline-block;
-    max-width: 75%;
-    margin-left: 12%;
+  .nav-links code {
+    font-size: 150%;
+  }
+
+  .resume-box {
+    float: none;
+    display: inline;
+    border: 0px;
+    background-color: #303030;
   }
 
   .main_img {
-    width: 150px;
-}
+    width: 400px;
+  }
+
+  .page-section p {
+  font-size: 100%;
+  }
 
   h2 {
-    font-size: .85em;
-}
-
-  .resume-box {
-    float: left;
-    background-color: #883b5a;
-    display: inline-block;
-    width: 40%;
-    margin: 4%;
-    text-align: center;
+    font-size: 125%;
   }
 
-  span {
-    font-size: .65em;
+  h3 {
+    font-size: 100%;
+    margin-top: -1em;
   }
 
-  .blog_cat a {
-    font-size: .65em;
-  }
 }
