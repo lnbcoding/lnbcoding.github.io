@@ -309,4 +309,12 @@ MEDIA QUERIES
   footer {
     font-size: 70%;
   }
+
+  #social_icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding-bottom: 10px;
+  }
+
 }
