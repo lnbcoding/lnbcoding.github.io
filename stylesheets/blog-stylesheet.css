@@ -19,6 +19,7 @@ header {
   position: fixed;
   top: -5px;
   float: left;
+  left: 0px;
   padding: 5px 0 0 0;
   min-width: 100%;
 }
@@ -132,13 +133,15 @@ FOOTER
 
 footer {
   border: 1px solid #101010;
-  /*background: #0e1215;*/
   background: #222222;
   font-size: 1em;
   text-align: center;
   clear: both;
   padding: 20px 0px 20px 4px;
   color: #ccc;
+  min-width: 100%;
+  margin-top: 1%;
+  margin-left: -.2%;
 }
 
 #social_icon {
