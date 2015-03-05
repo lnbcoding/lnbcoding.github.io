@@ -61,7 +61,7 @@ CONTAINER
 /***************************************
 ABOUT ME
 ****************************************/
-.about-me {
+#aboutme {
   margin-top: 5%;
 }
 
@@ -278,7 +278,7 @@ MEDIA QUERIES
       font-size: 90%;
   }
 
-  .about-me {
+  #aboutme {
     margin-top: 10%;
   }
 
