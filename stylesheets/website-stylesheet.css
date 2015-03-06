@@ -137,7 +137,6 @@ IMAGES
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
   width: 600px;
 }
 
@@ -147,7 +146,6 @@ ANCHOR TAGS
 
 a {
   text-decoration: none;
-  /*color: #9e4569;*/
   color: #e36397;
 }
 
