@@ -22,6 +22,7 @@ header {
   float: left;
   padding: 5px 0 0 0;
   min-width: 100%;
+  z-index: 2;
 }
 
 header ul {
@@ -138,6 +139,14 @@ IMAGES
   margin-left: auto;
   margin-right: auto;
   width: 600px;
+  outline: 3px #42577F solid;
+}
+
+.main_img_center_blog_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
 
 /***************************************
@@ -169,6 +178,64 @@ PAGE SECTIONS
 
 section {
   width: 100%;
+}
+
+/***************************************
+PROJECTS SECTIONS
+****************************************/
+
+#projects {
+  width: 100%;
+}
+
+.projects-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 3% 0 0 0;
+  text-align: center;
+}
+
+.projects-list li {
+  display: inline-block;
+  width: 450px;
+  margin: 0 3% 3% 0;
+  position: relative;
+  font-weight: normal;
+}
+
+.projects-list img {
+  width: 450px;
+  height: 250px;
+  outline: 3px #42577F solid;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.project-content {
+    position: absolute;
+    top: -2.7%;
+    left: 0;
+    font-size: 115%;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    width: 450px;
+    height: 250px;
+    line-height: 35px;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.project-content .project-title {
+  font-size: 130%;
+}
+
+.project-content:hover {
+  opacity: 1.5;
 }
 
 /***************************************
@@ -267,6 +334,23 @@ MEDIA QUERIES
     margin-top: 10%;
   }
 
+  .projects-list img {
+    width: 350px;
+  }
+
+  .project-content {
+    position: absolute;
+    top: -2.5%;
+    left: 0;
+    width: 450px;
+    font-size: 85%;
+  }
+
+
+  .project-content .project-title {
+    font-size: 100%;
+  }
+
   .resume-box {
     float: none;
     display: inline;
@@ -274,7 +358,7 @@ MEDIA QUERIES
     background-color: #303030;
   }
 
-  .main_img {
+  .main_img, .main_img_center_blog_img {
     width: 350px;
   }
 
