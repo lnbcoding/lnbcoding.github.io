@@ -181,6 +181,64 @@ section {
 }
 
 /***************************************
+PROJECTS SECTIONS
+****************************************/
+
+#projects {
+  width: 100%;
+}
+
+.projects-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 3% 0 0 0;
+  text-align: center;
+}
+
+.projects-list li {
+  display: inline-block;
+  width: 450px;
+  margin: 0 3% 3% 0;
+  position: relative;
+  font-weight: normal;
+}
+
+.projects-list img {
+  width: 450px;
+  height: 250px;
+  outline: 3px #42577F solid;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.project-content {
+    position: absolute;
+    top: -2.7%;
+    left: 0;
+    font-size: 115%;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    width: 450px;
+    height: 250px;
+    line-height: 35px;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.project-content .project-title {
+  font-size: 130%;
+}
+
+.project-content:hover {
+  opacity: 1.5;
+}
+
+/***************************************
 RESUME SECTION
 ****************************************/
 
