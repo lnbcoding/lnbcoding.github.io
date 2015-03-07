@@ -358,7 +358,7 @@ MEDIA QUERIES
     background-color: #303030;
   }
 
-  .main_img {
+  .main_img, .main_img_center_blog_img {
     width: 350px;
   }
 
