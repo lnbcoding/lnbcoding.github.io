@@ -334,6 +334,23 @@ MEDIA QUERIES
     margin-top: 10%;
   }
 
+  .projects-list img {
+    width: 350px;
+  }
+
+  .project-content {
+    position: absolute;
+    top: -2.5%;
+    left: 0;
+    width: 450px;
+    font-size: 85%;
+  }
+
+
+  .project-content .project-title {
+    font-size: 100%;
+  }
+
   .resume-box {
     float: none;
     display: inline;
