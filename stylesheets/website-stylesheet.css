@@ -139,6 +139,14 @@ IMAGES
   margin-left: auto;
   margin-right: auto;
   width: 600px;
+  outline: 3px #42577F solid;
+}
+
+.main_img_center_blog_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
 
 /***************************************
