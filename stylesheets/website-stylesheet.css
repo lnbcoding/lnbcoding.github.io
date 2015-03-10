@@ -295,24 +295,6 @@ MEDIA QUERIES
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 }
 
-@media only screen and (min-width: 320px) and (max-width: 600px) {
-
-  .nav-links code {
-    font-size: 90%;
-  }
-
-  .nav-links {
-      margin-top: -5px;
-  }
-
-  .nav-links li {
-      width: inherit;
-      font-size: 50%;
-      padding: 0px 4.75px 0px 4.75px;
-  }
-
-}
-
 @media only screen and (min-width: 681px) and (max-width: 1024px) {
   .resume-box {
     float: left;
@@ -401,6 +383,24 @@ MEDIA QUERIES
     height: 20px;
     margin: 0 5px;
     padding-bottom: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+  .nav-links code {
+    font-size: 90%;
+  }
+
+  .nav-links {
+      margin-top: -5px;
+  }
+
+  .nav-links li {
+      width: inherit;
+      font-size: 50%;
+      padding: 0px 4.75px 0px 4.75px;
   }
 
 }
